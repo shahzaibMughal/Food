@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  font-family: 'Lato', 'Arial','sans-serif';
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
+
+
+
+
+/*======== Main Header
+==========================*/
+.main_header{
+  width: 100vw;
+  height: 100vh;
+  background: pink;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/header_image.jpg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.food_delivery{
+  width: 100vw;
+  height: 100vh;
+  background: skyblue;
+}
+
+
+
+
+/*======== Navigation Bar
+===========================================*/
+.main_logo{
+  width: 150px;
+  height: 150px;
+  margin: 24px;
+}
+.main_nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 48px;
+}
+.main_nav ul{
+  list-style: none;
+  display: flex;
+}
+.main_nav ul a{
+  color: white;
+  padding: 8px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  margin: 20px;
+}
+.main_nav ul a:hover{
+  border-bottom: 2px solid #e67e22;
+}
