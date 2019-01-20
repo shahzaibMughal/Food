@@ -213,3 +213,39 @@
   opacity: 1;
 
 }
+
+
+/********** How it WORKS section
+*********************************************/
+.how_it_works_container > h2{
+  font-size: 2em;
+  margin: 60px;
+  text-align: center;
+}
+
+.how_it_works_container > h2:after{
+  display: block;
+  width: 10%;
+  margin: 24px auto;
+  content: " ";
+  height: 2px;
+  background: #e67e22;
+}
+
+.how_it_works{
+  display: flex;
+}
+.how_it_works  .app_mobile_view_container{
+  flex: 1 0 0 ;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.how_it_works_container  .app_mobile_view_container img{
+  width: 30%;
+  align-self: flex-end;
+  margin: 0 48px;
+}
+.how_it_works > .content{
+  flex: 1 0 0;
+}
