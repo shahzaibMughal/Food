@@ -612,3 +612,51 @@ a{
 .checkbox span{
   flex-grow: 1;
 }
+
+
+/********* Fooooter section
+***************************************/
+footer{
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 48px 0;
+}
+footer li{
+  list-style: none;
+}
+footer nav{
+  width: 80%;
+  margin: 48px auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .menu{
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+footer .links li{
+  padding: 10px;
+}
+footer .social_icons{
+  flex-grow: 0;
+}
+footer .social_icons img{
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+}
+
+footer li:hover{
+  cursor: pointer;
+}
+
+footer a, footer p{
+  color: #777;
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+}
+footer a:hover{
+  color: white;
+}
