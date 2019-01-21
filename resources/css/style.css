@@ -536,3 +536,79 @@ a{
   display: flex;
   margin: 5px 0;
 }
+
+
+
+
+
+
+
+
+/*========== Contact Form section
+==============================================*/
+
+.contact_form_section{
+  padding-top: 72px;
+}
+.contact_form_section > h2{
+  color: inherit;
+  word-spacing: 0.1em;
+  font-size: 2em;
+  /* margin: 60px; */
+  text-align: center;
+}
+
+.contact_form_section > h2:after{
+  display: block;
+  width: 10%;
+  margin: 24px auto;
+  content: " ";
+  height: 2px;
+  background: #e67e22;
+}
+
+.contact_form_section .form{
+  width: 50%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+.form .button{
+  margin: 20px 0;
+}
+.form .form_single_item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 0;
+
+}
+
+
+
+.form_single_item input, .form_single_item select, .form_single_item textarea,
+.form_single_item .checkbox{
+  flex-grow: 2;
+  padding: 5px;
+
+}
+.form_single_item label{
+  width: 250px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.checkbox input[type='checkbox']{
+  display: block;
+  flex-grow: 0;
+  width: 24px;
+  height: 15px;
+  margin-right: 5px;
+  margin-left: -5px;
+  align-self: flex-end;
+}
+.checkbox span{
+  flex-grow: 1;
+}
